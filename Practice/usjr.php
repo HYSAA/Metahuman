@@ -31,20 +31,20 @@ class usjr
         $school = new School('University of Example', 'Example City');
 
         // Display information
-        echo "Discipline: " . $discipline->getName() . "\n";
+        echo "Discipline: " . $discipline->getName() . "\n\n";
 
         // Display information for teachers
-        echo "Teacher 1: " . $teacher1->getName() . ", Title: " . $teacher1->getTitle() . "\n";
-        echo "Teacher 2: " . $teacher2->getName() . ", Title: " . $teacher2->getTitle() . "\n";
+        echo "Teacher 1: " . $teacher1->getName() . "\tTitle: " . $teacher1->getTitle() . "\n";
+        echo "Teacher 2: " . $teacher2->getName() . "\tTitle: " . $teacher2->getTitle() . "\n\n";
 
-        echo "Class Schedule: " . $classSchedule->getTextIdentifier() . "\n";
+        echo "Class Schedule: " . $classSchedule->getTextIdentifier() . "\n\n";
 
         // Display information for students
-        echo "Student 1: " . $student1->getName() . ", Schedule Number: " . $student1->getScheduleNumber() . "\n";
-        echo "Student 2: " . $student2->getName() . ", Schedule Number: " . $student2->getScheduleNumber() . "\n";
+        echo "Student 1: " . $student1->getName() . "\tSchedule Number: " . $student1->getScheduleNumber() . "\n";
+        echo "Student 2: " . $student2->getName() . "\tSchedule Number: " . $student2->getScheduleNumber() . "\n\n";
 
         // Display information for the school
-        echo "School: " . $school->getName() . ", Location: " . $school->getLocation() . "\n";
+        echo "School: " . $school->getName() . "\tLocation: " . $school->getLocation() . "\n";
     }
 }
 
