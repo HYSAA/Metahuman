@@ -11,16 +11,14 @@ class usjr
 {
     public function __construct()
     {
-        // Create instances of School, ClassSchedule, Student, Teacher, Discipline, and test functionalities
-
-        // Test data for Discipline
+       
         $discipline = new Discipline('Math', 20, 10);
 
-        // Test data for Teacher
+     
         $teacher1 = new Teacher('John Doe', 'Math Instructor');
         $teacher2 = new Teacher('Jane Smith', 'English Teacher');
 
-        // Test data for ClassSchedule
+     
         $classSchedule = new ClassSchedule('CS101');
 
         // Test data for Student
